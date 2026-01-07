@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'kcd-poc',
 
-  projectId: 'si6bza2h',
+  projectId: 'wfl3i8fx',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
