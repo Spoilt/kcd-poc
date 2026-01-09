@@ -12,7 +12,7 @@ const { data: posts } = await useSanityQuery<SanityDocument[]>(POSTS_QUERY)
 <template>
   <main class="container mx-auto min-h-screen max-w-3xl p-8">
     <h1 class="text-4xl font-bold mb-8">
-      Posts
+      Posts {{ posts?.length }}
     </h1>
 
     <ul class="flex flex-col gap-y-4">
